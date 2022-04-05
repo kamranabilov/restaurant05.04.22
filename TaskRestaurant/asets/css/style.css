@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.contain{
+    background-color: rgb(250, 249, 248);
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-left: 70px;
+    overflow: hidden;
+}
+.contain .main{
+    width: 33%;
+    display: inline-block;
+    overflow: hidden;
+}
+.contain .paragraf{
+    display: inline-block;
+}
+.contain .title h2{
+    color: rgb(145, 145, 245);
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contain .title h2 span{ 
+    color: rgb(156, 146, 146);       
+    margin-inline: -30px;
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;    
+    padding-left: 60px;
+    font-size: smaller;
+    font-style: italic;
+    text-transform: lowercase;    
+}
+.contain .main .paragraf p{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contain .main .button{
+  display: inline-flex;
+  margin-top: 12px;
+  padding-right: 18px;
+  font-family: sans-serif;
+  border-left: 5px;  
+}
+.contain .main .button .demo{
+    background-color: rgb(114, 114, 223);
+    color: aliceblue;
+}
+.contain .main .button .demo
+.demo-1 .download-1 .buy-1{
+    background-color: rgb(114, 114, 223);    
+    color: aliceblue;
+    display: initial;
+    margin-inline: 0px auto;
+    padding-right: 25px;
+    padding-left: 20px;          
+}
+.contain .main .button .download{
+    background-color: rgb(114, 114, 223);    
+    color: aliceblue;
+    display: initial;    
+    margin-inline: 10px auto;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+.contain .main .button .buy{
+    background-color: rgb(92, 221, 92);
+    color: aliceblue;
+    display: inline;
+    margin-inline: 14px;
+    padding-left: 45px;
+    padding-right: 35px;
+}
+.contain .main .image img{
+    width: 100%;
+    transition: 0.2s;   
+}
+.contain .main .image:hover img{
+    transform: scale(1.1);
+    object-fit: contain;
+}
